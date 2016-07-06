@@ -12,9 +12,9 @@ from trytond.pool import Pool
 from decimal import Decimal
 
 __all__ = ['Party']
-__metaclass__ = PoolMeta
 
 class Party:
+    __metaclass__ = PoolMeta
     __name__ = 'party.party'
 
     custom_code = fields.Char('Codigo')
